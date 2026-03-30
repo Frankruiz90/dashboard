@@ -19,7 +19,7 @@ export default function Dashboard() {
         onChange={(e) => setSearch(e.target.value)}
       />
       {filteredUsers.map((user) => (
-        <div key={user.id}>{user.name}</div>
+        <div key={user.id}>s{user.name}</div>
       ))}
     </div>
   );
